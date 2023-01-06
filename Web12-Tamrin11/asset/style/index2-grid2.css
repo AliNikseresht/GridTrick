@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: 100px 200px 300px 400px auto;
+    grid-template-rows: auto auto auto;
+
+}
+
+.wrap>div{
+    border: 2px solid wheat;
+}

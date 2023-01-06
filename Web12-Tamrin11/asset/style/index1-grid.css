@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 100px 20% 200px 16% ;
+    grid-template-rows: 200px 100px 200px ;
+}
+
+.container>div{
+    border: 2px solid blue;
+    background-color: rgb(3, 79, 79);
+}
